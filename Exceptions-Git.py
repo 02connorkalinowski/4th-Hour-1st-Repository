@@ -62,3 +62,13 @@ def retrieve_positive_number():
 		except ValueError:
 			print('That was not a number.')
 retrieve_positive_number()
+
+
+# 4.14.6: Print sum
+# Connor
+# 2.19.19
+
+def print_sum(x, y):
+	print(x + y)
+
+print_sum(48, 2345)
